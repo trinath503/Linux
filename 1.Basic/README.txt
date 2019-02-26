@@ -32,8 +32,22 @@ mv `ls | head -1500` ../crop_2000/
 
 
 #To Check port details
- ps -aef | grep mysql  (to check on which port mysql is running)
- Kill -9 port-number (to kill that port)
+ps -aef | grep mysql  (to check on which port mysql is running)
+Kill -9 port-number (to kill that port)
+#Remove 
+rm *.gif *.bmp
+mogrify -format jpg *.png
+rm *.png
+
+#Rename
+rename 's/\.jpe?g$/.jpg/i' *
+rename 's/\.JPG?g$/.jpg/i' *
+
+# Remove all spaces from the filenames
+for file in *.jpg; do mv "$file" $(echo $file | sed 's/ /R/g') ; done
+
+# Remove all spaces from the filenames
+for file in *.jpg; do mv "$file" $(echo $file | sed 's/-/R/g') ; done
 
 
 
