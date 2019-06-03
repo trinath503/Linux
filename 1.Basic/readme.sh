@@ -36,5 +36,12 @@ mv `ls | head -1500` ../crop_2000/
  Kill -9 port-number (to kill that port)
 
 
+#To run the command after some x time
+sleep 30m && bash scripts/train.sh 
+CUDA=1 sleep 30m && bash scripts/train.sh  #for gpu machines
+
+
+#To get the content in real time
+grep -f "string" filename.extension
 
 
