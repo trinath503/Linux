@@ -9,3 +9,9 @@ Byobu:
 To search in terminal: 
 Alt+ pgup
 Q - quit
+
+
+#split screen
+shift + f2 - split screen horizontally
+ctrl  + f2 - split screen vertically
+ctrl  + d  - delete screen
