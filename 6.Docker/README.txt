@@ -17,3 +17,5 @@ docker stop $(docker ps -aq)
 #Copying from container to host
 docker cp 05518f532325:/data/db/ db/
 
+#removing unwanted docker images
+sudo docker images | grep '<none>' | awk '{ print "docker rmi " $3}' > remove_unwanted_images.sh
