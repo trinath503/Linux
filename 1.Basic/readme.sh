@@ -45,3 +45,9 @@ CUDA=1 sleep 30m && bash scripts/train.sh  #for gpu machines
 grep -f "string" filename.extension
 
 
+#To monitor the downloading of files
+sudo apt install nethogs
+ifconfig
+sudo  nethogs  # sudo  nethogs ens4
+
+
