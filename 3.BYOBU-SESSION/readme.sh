@@ -16,3 +16,6 @@ shift + f2 - split screen horizontally
 ctrl  + f2 - split screen vertically
 ctrl  + d  - delete screen
 ctrl  + a + tab - to switch between screen
+
+#kickout(detach) the multiple-users from single session 
+(ctrl+a)+(shift+d)
