@@ -13,3 +13,7 @@ ssh trinath@techhawa.com
 
 #connect using pem file 
 sudo sshfs {username}@{ipaddress}:{remote folder path} {local folder path} -o IdentityFile={full path to the private key file}
+
+
+#without entering the password every time - first time required
+ssh-copy-id username@ip-address
