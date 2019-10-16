@@ -1,0 +1,5 @@
+# For moving commits in the same branch
+git reset --keep commit_id 
+
+# For seeing stacked commits
+git diff --staged
