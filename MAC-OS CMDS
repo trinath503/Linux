@@ -3,3 +3,10 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 
+## generate pub file 
+ssh-keygen -t rsa
+
+#use python3 and pip3 as default
+alias python='python3'
+alias python='pip3'
+source ~/.bash_profile
