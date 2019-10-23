@@ -10,3 +10,10 @@ ssh-keygen -t rsa
 alias python='python3'
 alias python='pip3'
 source ~/.bash_profile
+
+
+
+##docker and docker-composer install (mac catalina version )
+1.Download docker file (desktop app)
+https://download.docker.com/mac/stable/Docker.dmg
+
