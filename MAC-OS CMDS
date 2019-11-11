@@ -22,3 +22,9 @@ https://download.docker.com/mac/stable/Docker.dmg
 fn + shift + leftArrow = goto beginning of line
 fn + shift + rightArrow = goto end of line
 
+command + shift + leftArrow = switch to left tab in terminal 
+command + shift + rightArrow = switch to right tab in terminal 
+
+control + u = to cut the text left to the cursor
+control + k = to cut the text right to the cursor
+control + y = to paste the cut text
