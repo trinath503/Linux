@@ -51,3 +51,8 @@ ifconfig
 sudo  nethogs  # sudo  nethogs ens4
 
 
+#basic commands in terminal
+control + u = to cut the text left to the cursor
+control + k = to cut the text right to the cursor
+control + y = to paste the cut text
+
