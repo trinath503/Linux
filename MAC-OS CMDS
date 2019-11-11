@@ -17,3 +17,8 @@ source ~/.bash_profile
 1.Download docker file (desktop app)
 https://download.docker.com/mac/stable/Docker.dmg
 
+
+##Terminal commands
+fn + shift + leftArrow = goto beginning of line
+fn + shift + rightArrow = goto end of line
+
