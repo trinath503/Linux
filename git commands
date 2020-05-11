@@ -1,3 +1,25 @@
+#see the list of branches exists
+git branch -a 
+git branch -a |grep branch_name
+
+#to see the current status of current branch 
+git status 
+
+#to add the changed or modified files
+git add -u 
+
+#to add the files
+git add -A
+
+#to commit 
+git commit -m "add your message"
+
+#to push local changes to cloud
+git push origin branch-name
+
+#to pull cloud changes to local machine
+git pull origin branch-name
+
 # For moving commits in the same branch
 git reset --keep commit_id 
 
