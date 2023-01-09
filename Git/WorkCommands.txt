@@ -1,5 +1,12 @@
+General:
+    git remote set-url origin https://<github-token>@github.com/trinath503/Linux.git
+
 # To see git commits history
     git log --stat
+
+# to check last modified files(even if changed and reverted)
+    git diff-index --name-only HEAD
+    git diff-index --name-status HEAD
 
 Git Reverse:
     # helps to find relation from .git folder to all realted checks
@@ -12,3 +19,5 @@ Git Reverse:
 
 # helps in creating  different folder for different branch
     git worktree add --track -b dev_2022_r1 ../dev_2022_r1 origin/dev_2022_r1
+
+
