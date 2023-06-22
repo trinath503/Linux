@@ -1,8 +1,35 @@
 General:
     git remote set-url origin https://<github-token>@github.com/trinath503/Linux.git
 
+# to undo commit 
+    - git checkout HEAD~1 (checkout 1commit before last commit)
+    - git reset HEAD~3(to uncommit last 3 commits without losing changes)
+    - git reset --hard HEAD~3(uncommit last 3 commits and remove changes)
+
+# to reset commit 
+    - git resert HEAD | <hash_id>
+
+# to stash and bring back working directory from where developer left the work
+    - git stash
+    - git stash apply
+
+# git config 
+    git config --local user.name="Trinath"
+
+# used to display the last 20 commits history
+    git log --oneline --graph --decorate -n 20 --date-order
+
+# helps in creating  different folder for different branch
+    git worktree add --track -b dev_2022_r1 ../dev_2022_r1 origin/dev_2022_r1
+
 # To see git commits history
     git log --stat
+
+# when a branch wasdeleted and want to recover it.
+    git reflog (reference log)
+
+NOTE: when compared to merge ( to have complete history of merge )
+ and rebase (to have linear commit history , and current new commits has to be top of incomming commits), merge is prefered 
 
 # to check last modified files(even if changed and reverted)
     git diff-index --name-only HEAD
@@ -14,10 +41,8 @@ Git Reverse:
     2. git rev-parse --show-toplevel
     3. git rev-parse --is-inside-git-dir
 
-# used to display the last 20 commits history
-    git log --oneline --graph --decorate -n 20 --date-order
 
-# helps in creating  different folder for different branch
-    git worktree add --track -b dev_2022_r1 ../dev_2022_r1 origin/dev_2022_r1
+
+# 
 
 
